@@ -1,0 +1,18 @@
+node_modules/
+dist/
+.env
+.env.*
+coverage/
+data/
+contracts/cache/
+contracts/out/
+tsconfig.tsbuildinfo
+
+# Local-only operator notes and reference repositories; never publish these.
+/PUSH_PLAN.local.md
+/-payagent-hsk/
+/allscale-agentic-commerce-gateway/
+/minga-grid/
+
+# Keep the safe, placeholder-only root template available for the repository.
+!.env.example
